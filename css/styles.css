@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -30,4 +32,35 @@
 
 .menu ul li.active {
     color: white;
+}
+
+.logo {
+    height: 120px;
+    background-color: #2a2a2a;
+}
+
+.logo .image {
+    background-image: url("../img/generic-logo.png");
+    height: 40px;
+    width: 205px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    display: inline-block;
+    margin-top: 40px;
+    float: left;
+}
+
+.logo .slogan {
+    display: inline-block;
+    border-left: 1px solid grey;
+    padding-left: 10px;
+    margin-left: 10px;
+    line-height: 40px;
+    font-family: Roboto;
+    float: left;
+    margin-top: 40px;
+    color: white;
+    font-size: 44px;
+    font-weight: 100;
 }
