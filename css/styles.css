@@ -64,3 +64,48 @@
     font-size: 44px;
     font-weight: 100;
 }
+
+.header .gallery {
+    height: 256px;
+    background-color: #f4f4f4;
+}
+
+.gallery-container {
+    padding-top: 36px;
+}
+
+.gallery-container h1 {
+    font-weight: 100;
+    font-family: Roboto;
+    margin-bottom: 18px;
+    font-size: 22px;
+}
+
+.gallery-images i {
+    font-size: 30px;
+    color: white;
+    margin-top: 51px;
+}
+
+.fa-chevron-circle-left {
+    float: left;
+    margin-left: -48px;
+}
+
+.fa-chevron-circle-right {
+    float: right;
+    margin-right: -48px;
+}
+
+.gallery-images .image {
+    display: inline-block;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin-right: 10px;
+}
+
+.gallery-images .image:last-of-type {
+    margin-right: 0px;
+}
