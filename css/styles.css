@@ -3,6 +3,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Roboto;
 }
 
 .container {
@@ -112,6 +113,57 @@
 
 .content {
     background-color: white;
+}
+
+.content .container {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.text-content {
+    width: 220px;
+    margin-right: 45px;
+    display: inline-block;
+}
+
+.text-content:last-of-type {
+    margin-right: 0px;
+}
+
+.text-content .image {
+    display: inline-block;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+.text-content h2 {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-content h3 {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.text-content span {
+    border-radius: 5px;
+    padding: 15px;
+    background: linear-gradient(to bottom, #6ba712 0%, #48850d 100%);
+    color: white;
+    line-height: 49px;
 }
 
 .footer {
