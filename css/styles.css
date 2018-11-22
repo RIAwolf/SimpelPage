@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 758px;
+    margin: auto;
+}
+
+.menu {
+    background-color: #0d0d0d;
+    height: 65px;
+    border-bottom: 1px solid grey;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    line-height: 65px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: grey;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Tahoma", serif;
+}
+
+.menu ul li.active {
+    color: white;
+}
