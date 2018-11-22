@@ -45,7 +45,7 @@
     width: 205px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom;
+    background-position: bottom left;
     display: inline-block;
     margin-top: 40px;
     float: left;
@@ -108,4 +108,13 @@
 
 .gallery-images .image:last-of-type {
     margin-right: 0px;
+}
+
+.content {
+    background-color: white;
+}
+
+.footer {
+    background-color: #f3f3f3;
+    height: 110px;
 }
